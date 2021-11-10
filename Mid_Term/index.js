@@ -1,13 +1,12 @@
 redirect(){
 
-var student = document.getElementById('nameBox').value ;
-var mid = document.getElementById('midBox').value ;
-var final = document.getElementById('finalBox').value ;
-// var total = (mid*.40) + parseInt(final); 
-var total = (mid * .40) + (final * .60);
+var nameBox = document.getElementById('nameBox').value ;
+var ageBox = document.getElementById('ageBox').value ;
+var TMSBox = document.getElementById('total monthly salary').value ;
 
-if (total >= 60) {
-    p2.innerText = "Great, you have passed the course"
+
+if (ageBox >= 25 && TMSBox >==100000) {
+    p2.innerText = "Monthly bonus is"=TMSBox*.2 
 }
 else {
    p2.innerText = "Sorry, you failed this time."
