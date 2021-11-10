@@ -1,15 +1,89 @@
 .header{
-    margin: 15px;
     display: flex;
-    background-color: aqua;
+    padding: 20px;
+    width: auto;
+    height: 100px;
+    background-color:rgb(218, 253, 253);
 }
+
 .info{
-    img {
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        padding: 5px;
-        width: 150px;
-      }
-      
-      <img src="logo.png" alt="">
+    margin-left: 90px;
+    width: 2px;
+    font-weight: 800;
 }
+
+.signin{
+    margin-left: 60px;
+    font-weight: 800;
+    background-color: green;
+    color: white;
+}
+
+
+.image-style{
+    margin-left: 100px;
+    margin-right: 300px;
+    height: 60px;
+    width: 200px;
+}
+
+.main{
+    display: flex ;
+    width: auto;
+    background-color: rgb(218, 253, 253);
+}
+
+.writings{
+    margin-left: 200px;
+}
+
+.image{
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 200px;
+    width: 400px;
+}
+
+.extra_images{
+    display: flex ;
+    width: auto;
+
+}
+
+.add_info{
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-right: 110px;
+    height: 100px;
+    width: 100px;
+}
+
+.started{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: 800;
+    background-color: green;
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(218, 253, 253);
+
+}
+.right-div {
+    margin-left: 40px; 
+   
+    
+}
+
+.left-div{
+   
+    padding: 40px;
+}
+
+
+
+
